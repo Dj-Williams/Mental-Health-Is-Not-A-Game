@@ -1,0 +1,945 @@
+
+
+/* NAV BAR STUFF! */
+/* This makes my logo stay toward the left of the Navigation box! */
+.logo {
+    float: left;
+}
+/* This is the Navigation bar styling and background color animation change */
+.navBar {
+    background-color: rgba(79, 51, 155, 0.37);
+    height: 20vw;
+    width: 100vw;
+    text-align: center;
+    /* animation: gradSwitch ease infinite;
+    animation-duration: 12s;
+    animation-delay: 6s; */
+    position: relative;
+    /* backround gif found on google images */
+    background-image: url(/images/MainPage/maybe.gif);
+    background-blend-mode: difference;
+    bottom: 2px;
+    border-radius: 15px;
+}
+/* This tells the logo to stay toward the left side of the nav bar. */
+.navBar img {
+    float: left;
+}
+/* /* More nav bar item styling. this handles the spacing inbetween the individual options This keeps my nav list items in line */ 
+.navBar li {
+    list-style-type: none;
+    padding: 7px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;  
+    position: relative; 
+}
+/* Styling for the individual items on the navBar. Gives them their own boxes and backgrounds.  */
+.navBar li a {
+    color: black;
+    font-size: 10px;
+    /* text-decoration: none; */
+    line-height: 275px;
+    padding: 20px 30px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+/* END NAV BAR STUFF */
+
+/* Main Page Body Content Section! */
+
+/* styling code for the main page background */
+#indexBody {
+    /* background design found on classicgaming.cc */
+    background-image: url(/images/MainPage/pacmanBackground.jpg);
+    background-color: rgba(6, 39, 99, 0.568);
+    background-blend-mode: overlay;
+}
+
+.notAGameBox {
+    width: 47vw;
+    height: 16vw;
+    margin-left: 350px;
+    margin-top: 50px; 
+    border: 20px solid;
+    border-image: url(/images/AboutPage/Pacman-Maze-Wallpaper-02.png) 11% round;
+    background-color: rgba(4, 45, 225, 0.349);
+}
+
+/* Second Content Box on Main Page! */
+
+.contentBox2 {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    border: 10px solid green;
+    top: 40px;
+    margin: 0 auto;
+    background-color: rgba(102, 112, 8, 0.397);
+    background-image: url(/images/MainPage/young\ girl.jpeg);
+    border-image: url(/images/AboutPage/Pacman-Maze-Wallpaper-02.png) 17% round;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: exclusion;
+
+}
+
+.innerContentBox2 {
+    width: 35%;
+    height: 50%;
+    border: 20px solid rgba(0, 0, 0, 0.356);
+    background-color: rgba(255, 255, 255, 0.445);
+    margin-left: 800px;
+    margin-top: 80px;
+    position: relative;
+}
+
+#abtTxtTwo {
+    color: black;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: medium;
+}
+
+#aboutButton2 {
+    width: 150px;
+    height: 60px;
+    margin-left: 175px;
+}
+
+/* Last Content Box on Main Page! */
+
+.contentBox3 {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    border: 10px solid green;
+    top: 80px;
+    margin: 0 auto;
+    background-color: rgba(22, 77, 99, 0.534);
+    background-image: url(/images/MainPage/mission.jpeg);
+    border-image: url(/images/AboutPage/Pacman-Maze-Wallpaper-02.png) 17% round;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: exclusion;
+
+}
+
+#abtTxtThree {
+    color: black;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 23px;
+    
+}
+
+#MissionTxt {
+    color: rgba(0, 0, 0, 0.664);
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 100px;
+    padding-top: 90px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.innerContentBox3 {
+    width: 55%;
+    height: 45%;
+    border: 10px solid rgba(0, 0, 0, 0.356);
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-left: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+/* ABOUT PAGE CODE! */
+#aboutBody {
+    /* background design found on toptal.com */
+    background-image: url(/images/MainPage/pacmanBackground.jpg);
+    background-color: rgba(185, 163, 194, 0.616);
+    background-blend-mode: soft-light;
+}
+/* styling for its not a game box */
+
+/* First Content Box on About Page! */
+.contentBox {
+    width: 100vw;
+    height: 50vw;
+    position: relative;
+    border: 20px solid green;
+    top: 20px;
+    margin: 0 auto;
+    background-color: rgba(4, 0, 255, 0.425);
+    background-image: url(/images/logo/Office\ 10.jpg);
+    /* Image taken from Estes Therapy, a San Diego therapy group. */
+    background-blend-mode: luminosity;
+    border-image: url(/images/AboutPage/Pacman-Maze-Wallpaper-02.png) 17% round;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/* Inner content box styling mainly for staging the text properly.  */
+
+.innerContentBox {
+    width: 35%;
+    height: 50%;
+    border: 30px solid rgba(0, 0, 0, 0.418);
+    background-color: rgba(255, 255, 255, 0.445);
+    margin-left: 75px;
+    margin-top: 100px;
+    position: relative;
+}
+
+/* Styling for the text in the first content box */
+
+#aboutTxt1 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+/* About button styling for the first content box */
+#aboutButton {
+    width: 150px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+/* Styling for the mission text on about page */
+#goal {
+    font-size: 80px;
+    line-height: 500px;
+    position: overlay;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.statsBigBox {
+        width: 100vw;
+        height: 60vw;
+        position: relative;
+        border: 20px solid green;
+        top: 50px;
+        margin: 0 auto;
+        background-color: rgba(250, 250, 253, 0.007);
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-x: scroll;
+        border-image: url(/images/AboutPage/Pacman-Maze-Wallpaper-02.png) 17% round;
+}
+
+#statsLilBox {
+    width: 35%;
+    height: 35%;
+    border: 3px solid rgba(0, 0, 0, 0.418);
+    margin-left: 75px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#table1 {
+    width: 500px;
+    height: 300px;
+}
+
+#table2 {
+    width: 90%;
+    height: 90%;
+    padding: 50px;
+}
+
+#abtReasons {
+    font-size: 40px;
+    margin-left: 550px;
+    margin-top: 80px;
+    font-family: 'Bungee Shade', cursive;
+}
+/* END ABOUT PAGE Code! */
+
+/* BEGIN ILLNESS PORTAL Code */
+
+#illPortalBody {
+    /* background design found on toptal.com */
+    background-image: url(/images/MainPage/pacmanBackground.jpg);
+    background-color: rgba(6, 6, 24, 0.651);
+    background-blend-mode: overlay;
+}
+
+/* First illnessBox & Styling */
+.illBigBox1 {
+    width: 60vw;
+    height: 20vw;
+    border: 20px solid rgba(211, 193, 193, 0.295);
+    border-radius: 360px;
+    border-bottom-left-radius: 15px;
+    background-image: url(/images/Depression/Depression1.gif);
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#illBox1Txt {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: rgba(149, 194, 146, 0.884);
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* Second illnessBox & Styling */
+.illBigBox2 {
+    width: 60vw;
+    height: 20vw;
+    border: 20px solid rgba(211, 193, 193, 0.295);
+    border-radius: 360px;
+    border-bottom-left-radius: 15px;
+    background-image: url(/images/Anxiety/maybeBackground.gif);
+    background-position: center;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+#illBox2Txt {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: rgb(19, 7, 17);
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* Third illnessBox & Styling */
+.illBigBox3 {
+    width: 60vw;
+    height: 20vw;
+    border: 10px solid rgba(211, 193, 193, 0.295);
+    border-radius: 360px;
+    border-bottom-left-radius: 15px;
+    background-image: url(/images/Addiction/maybeBackgrounf.gif);
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#illBox3Txt {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: rgba(5, 1, 17, 0.945);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.788);
+    font-family: 'Bungee Shade', cursive;
+} 
+/* END ILLNESS PORTAL CODE */
+
+
+/* BEGIN THERAPY PORTAL CODE! */
+
+#therapyPortalBody {
+    /* background design found on toptal.com */
+    background-image: url(/images/MainPage/pacmanBackground.jpg);
+    background-color: rgba(179, 182, 12, 0.568);
+    background-blend-mode: overlay;
+}
+
+/* First therapyBox & Styling */
+.theraBigBox1 {
+    width: 60vw;
+    height: 20vw;
+    border: 20px solid rgba(211, 193, 193, 0.295);
+    border-radius: 360px;
+    border-top-right-radius: 15px;
+    background-image: url(/images/Counseling/CounselBackground.png);
+    background-position: bottom;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+#theraBox1Txt {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.753);
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* Second therapyBox & Styling */
+.theraBigBox2 {
+    width: 60vw;
+    height: 20vw;
+    border: 20px solid rgba(211, 193, 193, 0.295);
+    border-radius: 360px;
+    border-top-right-radius: 15px;
+    background-image: url(/images/Meditation/poentialbackground2.gif);
+    background-position: center;
+    margin-top: 75px;
+    margin-left: 500px;
+}
+#theraBox2Txt {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: rgba(245, 3, 205, 0.952);
+    text-shadow: 2px 2px rgba(245, 245, 245, 0.548);
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* Third therapyBox & Styling */
+.theraBigBox3 {
+    width: 60vw;
+    height: 20vw;
+    border: 10px solid rgba(211, 193, 193, 0.295);
+    border-radius: 360px;
+    border-top-right-radius: 15px;
+    background-image: url(/images/GamingTherapy/menu.gif);
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+#theraBox3Txt {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    color: rgb(67, 65, 202);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+/* END THERAPYPORTAL PAGE CODE! */
+/* DEPRESSION PAGE CODE! */
+
+/* Depression background  */
+#depressBody {
+    background-image: url(/images/Depression/Depression1.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #627680;
+}
+
+/* This says to change every div in the slide container to these specifications  */
+.depressBigSlideContainer > div {
+    border: 10px solid rgba(29, 29, 165, 0.61);
+}
+/* This is the container that holds and slides the rest of the content boxes on the page. It does this by using overflow x and y parameters to slide them and display:grid to precisely line everything up.  */
+.depressBigSlideContainer {
+    width: 100%;
+        height: 30vw;
+        position: relative;
+        border: 10px solid rgba(99, 99, 98, 0.418);
+        top: 475px;
+        margin: 0 auto;
+        background-color: rgba(250, 250, 253, 0.007);
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: grid;
+        grid-template-columns: 500px 500px 500px 500px;
+        grid-template-rows: 430px;
+        grid-template-areas: "box1 box2 box3 box4";
+        grid-gap: 1000px;
+}
+/* These are the slide content boxes 1-4 for this specific page. */
+.depressSlideBox1 {
+    grid-area: box1;
+    background-color: rgba(97, 114, 211, 0.747);
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.depressSlideBox2 {
+    grid-area: box2;
+    background-color: rgba(97, 114, 211, 0.747);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.depressSlideBox3 {
+    grid-area: box3;
+    background-color: rgba(97, 114, 211, 0.747);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.depressSlideBox4 {
+    grid-area: box4;
+    background-color: rgba(97, 114, 211, 0.747);
+    text-align: center;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* This is the styling for the button that reveals the powerup! */
+.depButton {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(79, 51, 155, 0.37);
+    font-size: 15px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* This is styling for the button that links to the counseling page.  */
+.portalButton {
+    width: 200px;
+    height: 60px;
+    margin-top: 125px;
+    margin-left: 135px;
+    background-color: rgba(79, 51, 155, 0.37);
+    font-size: 15px;
+    flex-direction: column;
+    
+
+}
+
+/* DEPRESSION PAGE CODE END */
+
+/* ANXIETY PAGE CODE BEGIN */
+
+/* Anxiety background  */
+#anxietyBody {
+    /* Image taken from http://gifimage.net/ */
+    background-image: url(/images/Anxiety/maybeBackground.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:  #6893AD;
+}
+
+/* This says to change every div in the slide container to these specifications  */
+.anxietyBigSlideContainer > div {
+    border: 10px solid rgba(29, 29, 165, 0.61);
+}
+
+.anxietyBigSlideContainer {
+    width: 100%;
+        height: 30vw;
+        position: relative;
+        border: 10px solid rgba(99, 99, 98, 0.418);
+        top: 500px;
+        margin: 0 auto;
+        background-color: rgba(250, 250, 253, 0.007);
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: grid;
+        grid-template-columns: 500px 500px 500px 500px;
+        grid-template-rows: 430px;
+        grid-template-areas: "box1 box2 box3 box4";
+        grid-gap: 1000px;
+        
+}
+.anxietySlideBox1 {
+    grid-area: box1;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.anxietySlideBox2 {
+    grid-area: box2;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.anxietySlideBox3 {
+    grid-area: box3;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.anxietySlideBox4 {
+    grid-area: box4;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* This is the styling for the button that reveals the powerup!  */
+.anxButton {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(79, 51, 155, 0.37);
+    font-size: 15px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* This is styling for the button that links to the counseling page.  */
+.portalButton2 {
+    width: 200px;
+    height: 80px;
+    margin-top: 125px;
+    margin-left: 135px;
+    background-color: rgba(79, 51, 155, 0.37);
+    font-size: 15px;
+    flex-direction: column;
+
+}
+
+/* ANXIETY PAGE CODE END */
+
+
+/* ADDICTION PAGE CODE BEGIN */
+/* Addiction page background  */
+#addictionBody {
+    /* Image taken from http://gifimage.net/ */
+    background-image: url(/images/Addiction/maybeBackground2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(4, 45, 225, 0.349);
+}
+
+/* This says to change every div in the slide container to these specifications  */
+.addBigSlideContainer > div {
+    border: 10px solid rgba(29, 29, 165, 0.61);
+}
+
+.addBigSlideContainer {
+    width: 100%;
+        height: 30vw;
+        position: relative;
+        border: 10px solid rgba(99, 99, 98, 0.418);
+        top: 500px;
+        margin-right: 30px;
+        background-color: rgba(250, 250, 253, 0.007);
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: grid;
+        grid-template-columns: 500px 500px 500px 500px;
+        grid-template-rows: 430px;
+        grid-template-areas: "box1 box2 box3 box4";
+        grid-gap: 1000px;
+        
+}
+.addSlideBox1 {
+    grid-area: box1;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.addSlideBox2 {
+    grid-area: box2;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.addSlideBox3 {
+    grid-area: box3;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.addSlideBox4 {
+    grid-area: box4;
+    background-color: rgba(224, 255, 255, 0.685);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* This is the styling for the button that reveals the powerup!  */
+.addButton {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(79, 51, 155, 0.37);
+    font-size: 15px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* This is styling for the button that links to the counseling page.  */
+.portalButton3 {
+    width: 200px;
+    height: 80px;
+    margin-top: 125px;
+    margin-left: 135px;
+    background-color: rgba(79, 51, 155, 0.37);
+    font-size: 17px;
+    flex-direction: column;
+
+}
+
+/* END ADDICTION PAGE CODE */
+
+/* Text Styles for All Therapy Pages! */
+
+.headerTxt {
+    text-align: center;
+    color: #000000fa;
+    font-size: 36px;
+    margin: 50px;
+    text-transform: uppercase;
+    background-color: #6893AD;
+    border: 20px solid lightgray;
+    border-image: url(/images/AboutPage/Pacman-Maze-Wallpaper-02.png) 17% round;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.inlineText {
+    font-size: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.801);
+    background-color: rgba(0, 0, 2, 0.308);
+    border: solid;
+    line-height: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bodyText {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px #f3f3f37e;
+    background-color: rgba(180, 180, 185, 0.555);
+    border: solid rgba(0, 0, 2, 0.308);
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* END Text Styles for All Therapy Pages! */
+
+/* BEGIN COUNSELING PAGE CODE! */
+
+.counselBody {
+    background-image: url(/images/MainPage/whirlpool.png);
+    background-color: rgba(222, 184, 135, 0.644);
+    background-blend-mode: soft-light;
+}
+
+/* First Parallax */
+.counselParent1 {
+    /* Image taken from Deviant art page iForLiving */
+    background: url(/images/Counseling/CounselBackground.png)fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 8%;
+}
+
+.counselChild1 {
+    padding: 500px;
+}
+
+/* Second Parallax */
+.counselParent2 {
+    /* Image taken from Deviant art page iForLiving */
+    background: url(/images/Counseling/counselbackground2.svg)fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 8%;
+}
+
+.counselChild2 {
+    padding: 500px;
+}
+
+/* END COUNSELING PAGE CODE! */
+/* BEGIN GUIDED MEDITATION PAGE CODE! */
+
+.gmBody {
+    background-image: url(/images/MainPage/whirlpool.png);
+    background-color: rgba(142, 222, 135, 0.541);
+    background-blend-mode: soft-light;
+}
+
+/* First Parallax */
+.gmParent1 {
+    /* Image taken from Deviant art page iForLiving */
+    background: url(/images/Meditation/potentialbackground.jpg)fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 8%;
+}
+
+.gmChild1 {
+    padding: 500px;
+}
+
+/* Second Parallax */
+.gmParent2 {
+    /* Image taken from Deviant art page iForLiving */
+    background: url(/images/Meditation/poentialbackground2.gif)fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 8%;
+}
+
+.gmChild2 {
+    padding: 500px;
+}
+/* END GUIDED MEDITATION CODE! */
+/* BEGIN GAMING THERAPY CODE! */
+
+.gameTheraBody {
+    background-image: url(/images/MainPage/whirlpool.png);
+    background-color: rgba(142, 222, 135, 0.541);
+    background-blend-mode: soft-light;
+}
+
+
+/* First Parallax */
+.gameTheraParent1 {
+    /* Image taken from Deviant art page iForLiving */
+    background: url(/images/GamingTherapy/background1.jpg)fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 8%;
+}
+
+.gameTheraChild1 {
+    padding: 500px;
+}
+
+/* Second Parallax */
+.gameTheraParent2 {
+    /* Image taken from Deviant art page iForLiving */
+    background: url(/images/GamingTherapy/potentialBackground2.jpg)fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 8%;
+}
+
+.gameTheraChild2 {
+    padding: 500px;
+}
+
+/* GAME THERAPY PAGE CODE ENDS! */
+/* SCHEDULE PAGE CODE BEGINS! */
+
+.scheduleBody {
+    background-image: url(/images/MainPage/pacmanBackground.jpg);
+    background-color: rgba(184, 135, 11, 0.384);
+    background-blend-mode: color-burn;
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* This gives the form box a neat container that places it in the middle of the screen. */
+.formContainer {
+    width: 450px;
+    margin: 25px auto;
+}
+
+/* This stylizes the form box */
+form {
+    padding: 20px;
+    background-color: #627680;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+/* This organizes the form user information fields */
+input, button {
+    margin-bottom: 15px;
+    display: block;
+    align-content: center;
+    width: 400px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* This gives the tell us more box more space so that people see more of what they type. */
+#tellmore {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: wrap;
+}
+/* This gives space to the user input field so people can type thier information. */
+input {
+    height: 25px;
+    line-height: 25px;
+}
+
+button {
+    height: 30px;
+    background-color: rgba(58, 68, 202, 0.692);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.514);
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* Schedule Page Code END! */
+
+
+/* ANIMATION CODES BEGIN! */
+
+/* Modal Code! */
+
+/* Modal for Schedule Page! */
+/* This styles the grey'd out effect the modal has on the rest of the page when clicked! */
+.modalBackground {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #62768070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    opacity: 1;
+    visibility: hidden;
+   
+}
+
+/* This styles the actual box of the modal that the content will be on top of! */
+.modalBox {
+    position: relative;
+    background-color: white;
+    background-image: url(/images/Schedule/web-pac-thumbs-up.gif);
+    background-position: left;
+    width: 30%;
+    color: white;
+    text-shadow: 2px 2px black;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 10px solid rgba(255, 217, 0, 0.562);
+}
+
+
+/* This is the x button that closes the modal */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}
